@@ -2,6 +2,7 @@
 <html>
 <head>
     <style>
+        /* Your CSS styles go here */
         r {
             color: red;
         }
@@ -10,7 +11,6 @@
         }
     </style>
 </head>
-
 
 # 1. <y>Header</y>
 - <b>Number Signs</b>(<r>#</r>)

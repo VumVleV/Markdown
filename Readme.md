@@ -105,7 +105,7 @@ Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
 >> a magnificent picture in a book.
 
 Blockquots can contain other Markdown formatted elements. Not all elements can be used.
-\
+
 ```
 > #### Welcome to \*\*\*Hogwarts\*\*\*!<br>
 >

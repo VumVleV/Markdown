@@ -2,7 +2,6 @@
 <html>
 <head>
     <style>
-        /* Your CSS styles go here */
         r {
             color: red;
         }

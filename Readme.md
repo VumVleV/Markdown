@@ -1,6 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+​
+</body>
+</html>
 
-
-# 1. ==Header==
+# 1. Header
 - <b>Number Signs</b>(<font color="red">#</font>)
 - More Signs, Smaller the Header.
   
@@ -17,7 +26,7 @@
 |# Here's a Heading|#Here's a Heading|
 |Try to put a blank line before...<br><br># Heading<br><br>...and after a heading.|Without blank lines, this might not look right.<br># Heading<br>Don't do this!|
 
-# 2. ==Paragraphs==
+# 2. Paragraphs
 To create paragraphs, use a blank line to separate one or more lines of text.
 
 |Markdown|HTML|Output|
@@ -44,7 +53,7 @@ There are two other options I don’t recommend using. CommonMark and a few othe
 |---|---|
 |Trailing whitespace<br>\<br> HTML tag|backslash(\\)<br>just return|
 
-# 3. ==Empahsis==
+# 3. Empahsis
 To bold texts, add two asterisks or underscore before and after a word or phrase. To bold the middle of a word, add two asterisks without spaces around the letters.
 
 |Markdown|HTML|Output|
@@ -79,7 +88,7 @@ To bold and italicize texts, add three asterisks or underscores before and after
 |This text is \_\*\*really important\*\*\_.|This text is \<em>\<strong>really important\</strong>\</em>.|This text is <em><strong>really important</strong></em>.|
 |This text is really\*\*\*very\*\*\*important.|This text is really\<em>\<strong>very\</strong>\</em>important.|This text is really<em><strong>very</strong></em>important.|
 
-# 4. ==Blockquotes==
+# 4. Blockquotes
 To create a blockquote, add a > in front of a paragraph.
 
 \> Once when I was six years old I saw
@@ -126,7 +135,7 @@ Blockquots can contain other Markdown formatted elements. Not all elements can b
 |---|---|
 |Try to put a blank line before...<br><br>\> This is a block quote<br><br>... and after a blockquote.|Without blank lines, this might not look right.<br>\>This is a blockquote<br>Don't do this!|
 
-# 5. ==Lists==
+# 5. Lists
 ## Ordered Lists
 To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
 
@@ -257,7 +266,7 @@ You can nest an unordered list in an ordered list, or vice versa.
     - Indented item
 4. Fourth item
 
-# 6. ==Code==
+# 6. Code
 To denote a word or phrase as code, enclose it in backticks (`).
 
 |Markdown|HTML|Output|
@@ -270,7 +279,7 @@ If the word or phrase you want to denote as code includes one or more backticks,
 |---|---|---|
 |\`\`Use \`code\` in your Markdown file.\`\`|\<code>Use \`code\` in your Markdown file.\</code>|Use \`code\` in your Markdown file.|
 
-# 7. ==Code Blocks==
+# 7. Code Blocks
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 ```
     <html>
@@ -286,7 +295,7 @@ The rendered output looks like this:
       </head>
     </html>
 
-# 8. ==Horizontal Rules==
+# 8. Horizontal Rules
 
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 For compatibility, put blank lines before and after horizontal rules.
@@ -295,7 +304,7 @@ For compatibility, put blank lines before and after horizontal rules.
 |---|---|
 |Try to put a blank line before...<br><br>---<br><br>...and after a horizontal rule.|Without blank lines, this would be a heading.<br>---<br>Don't do this!|
 
-# 9. ==Links==
+# 9. Links
 
 To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., \(https://duckduckgo.com\)).
 
@@ -386,7 +395,7 @@ Parentheses in the middle of a URL can also be problematic. For compatibility, t
 |---|---|
 |`[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)`<br><br>\<a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)">a novel\</a>|\[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel))|
 
-# 10. ==Images==
+# 10. Images
 
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.
 
@@ -402,7 +411,7 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 ```
 
-# 11. ==Escaping Characters==
+# 11. Escaping Characters
 
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
@@ -431,7 +440,7 @@ The rendered output looks like this:
 |!|exclamation mark|
 |\||pipe|
 
-# 12. ==HTML==
+# 12. HTML
 
 Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.
 
@@ -451,7 +460,7 @@ Use blank lines to separate block-level HTML elements like \<div>, \<table>, \<p
 
 You can’t use Markdown syntax inside block-level HTML tags. For example, \<p>italic and \*\*bold\*\*\</p> won’t work.
 
-# 13. ==Lightweight Markup Languages==
+# 13. Lightweight Markup Languages
 Not all Markdown applications support extended syntax elements. You’ll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn’t, it may still be possible to enable extensions in your Markdown processor.
 
 Lightweight Markup Languages
@@ -465,7 +474,7 @@ There are several lightweight markup languages that are supersets of Markdown. T
 
 There are dozens of Markdown processors available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor’s documentation for more information.
 
-# 13. ==Table==
+# 13. Table
 - <b>Header and Content</b> delimited by <b><font color="red">-</font></b>
 - <b>Columns</b> delimited by <b><font color="red">|</font></b>
   
@@ -530,7 +539,7 @@ The rendered output looks like this:
 | Header      | Title |
 | List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
 
-# 14. ==Fenced Code Block==
+# 14. Fenced Code Block
 The basic Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three backticks (```) or three tildes (~~~) on the lines before and after the code block. The best part? You don’t have to indent any lines!
 
 \`\`\`
@@ -588,7 +597,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 
-# 16. ==Heading IDs==
+# 16. Heading IDs
 
 Many Markdown processors support custom IDs for headings — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
 
@@ -609,7 +618,7 @@ Other websites can link to the heading by adding the custom heading ID to the fu
 |---|---|---|
 |\[Heading IDs](#heading-ids)|\<a href="#heading-ids">Heading IDs</a>|[Heading IDs](#heading-ids)|
 
-# 17. ==Definition Lists==
+# 17. Definition Lists
 Some Markdown processors allow you to create definition lists of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.
 
 ```
@@ -641,7 +650,7 @@ Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
 
-# 18. ==Strikethrough==
+# 18. Strikethrough
 You can strikethrough words by putting a horizontal line through the center of them. The result looks like this. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (~~) before and after the words.
 
 ```
@@ -649,7 +658,7 @@ You can strikethrough words by putting a horizontal line through the center of t
 ```
 ~~The world is flat.~~ We now know that the world is round.
 
-# 19. ==Task Lists==
+# 19. Task Lists
 Task lists (also referred to as checklists and todo lists) allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (-) and brackets with a space ([ ]) in front of task list items. To select a checkbox, add an x in between the brackets ([x]).
 
 ```
@@ -661,7 +670,7 @@ Task lists (also referred to as checklists and todo lists) allow you to create a
 - [ ] Update the website
 - [ ] Contact the media
 
-# 20. ==Emoji==
+# 20. Emoji
 There are two ways to add emoji to Markdown files: copy and paste the emoji into your Markdown-formatted text, or type emoji shortcodes.
 
 In most cases, you can simply copy an emoji from a source like Emojipedia and paste it into your document. Many Markdown applications will automatically display the emoji in the Markdown-formatted text. The HTML and PDF files you export from your Markdown application should display the emoji.
@@ -680,13 +689,12 @@ Gone camping! ⛺ Be back soon.
 
 That is so funny! 😂
 
-# 21. ==Highlight==
+# 21. Highlight
 This isn’t common, but some Markdown processors allow you to highlight text. The result looks like this. To highlight words, use two equal signs (==) before and after the words.
 
 ```
 I need to highlight these ==very important words==.
 ```
-I need to highlight these ==very important words==.
 
 Alternatively, if your Markdown application supports HTML, you can use the mark HTML tag.
 
@@ -694,7 +702,7 @@ Alternatively, if your Markdown application supports HTML, you can use the mark 
 I need to highlight these <mark>very important words</mark>.
 ```
 
-# 22. ==Subscript==
+# 22. Subscript
 This isn’t common, but some Markdown processors allow you to use subscript to position one or more characters slightly below the normal line of type. To create a subscript, use one tilde symbol (~) before and after the characters.
 
 ```

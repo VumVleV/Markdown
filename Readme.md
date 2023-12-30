@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-​
-</body>
-</html>
-
 # 1. Header
 - <b>Number Signs</b>(<font color="red">#</font>)
 - More Signs, Smaller the Header.
@@ -718,7 +708,7 @@ Alternatively, if your Markdown application supports HTML, you can use the sub H
 H<sub>2</sub>O
 ```
 
-# 23. ==Superscript==
+# 23. Superscript
 This isn’t common, but some Markdown processors allow you to use superscript to position one or more characters slightly above the normal line of type. To create a superscript, use one caret symbol (^) before and after the characters.
 
 ```
@@ -735,7 +725,7 @@ Alternatively, if your Markdown application supports HTML, you can use the sup H
 X<sup>2</sup>
 ```
 
-# 24. ==Automatic URL linking==
+# 24. Automatic URL linking
 Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t used brackets.
 ```
 http://www.example.com
@@ -755,7 +745,7 @@ The rendered output looks like this:
 
 `http://www.example.com`
 
-# 25. ==Underline==
+# 25. Underline
 Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you’re writing a paper or a report, you may need the ability to underline words and phrases. A couple of applications like Bear and Simplenote provide support for underlining text, but Markdown doesn’t natively support underlining. If your Markdown processor supports HTML, you can use the \<ins> HTML tag to underline text in your document.
 
 ```
@@ -766,7 +756,7 @@ The rendered output looks like this:
 
 Some of these words <ins>will be underlined</ins>.
 
-# 26. ==Indent(Tab)==
+# 26. Indent(Tab)
 Tabs and whitespace have a special meaning in Markdown. You can use trailing whitespace to create line breaks, and you can use tabs to create code blocks. But what if you need to indent a paragraph the old-fashioned way, using the tab key? Markdown doesn’t provide an easy way of doing that.
 
 Your best bet might be to use a Markdown editor that supports indentation. This is common in applications that are more oriented towards desktop publishing. For example, iA Writer allows you to customize indentation settings for the editor in the application preferences. It also provides template customization options so that you can make the rendered document look the way you expect it to, indentation and all.
@@ -781,7 +771,7 @@ The rendered output looks like this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.
 
-# 27. ==Center==
+# 27. Center
 Having the ability to center text is a necessity when writing a paper or a report. Unfortunately, Markdown doesn’t have any concept of text alignment (one possible exception is when using tables). The good news is that there’s an HTML tag you can use: \<center>. If your Markdown processor supports HTML, you can place these tags around whatever text you want to center align.
 
 ```
@@ -802,7 +792,7 @@ If this is supported by your Markdown application, the output looks like this:
 
 <p style="text-align:center">Center this text</p>
 
-# 28. ==Color==
+# 28. Color
 Markdown doesn’t allow you to change the color of text, but if your Markdown processor supports HTML, you can use the \<font> HTML tag. The color attribute allows you to specify the font color using a color’s name or the hexadecimal #RRGGBB code.
 
 ```
@@ -823,7 +813,7 @@ If this is supported by your Markdown application, the output looks like this:
 
 <p style="color:blue">Make this text blue.</p>
 
-# 29. ==Comments==
+# 29. Comments
 Some people need the ability to write sentences in their Markdown files that will not appear in the rendered output. These comments are essentially hidden text. The text is viewable by the author of the document, but it’s not printed on the webpage or PDF. Markdown doesn’t natively support comments, but several enterprising individuals have devised a solution.
 To add a comment, place text inside brackets followed by a colon, a space, and a pound sign (e.g., \[comment]: #). You should put blank lines before and after a comment.
 
@@ -845,7 +835,7 @@ And here's another paragraph that's visible
 
 > This tip comes from Stack Overflow. It's been peer-reviewed and used by thousands of people!
 
-# 30. ==Admonition==
+# 30. Admonition
 Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. Markdown doesn’t provide special syntax for admonitions, and most Markdown applications don’t provide support for admonitions (one exception is MkDocs).
 
 ```
@@ -864,7 +854,7 @@ The rendered output looks like this:
 
 > :bulb: **Tip:** Remember to appreciate the little things in life.
 
-# 31. ==Image Size==
+# 31. Image Size
 The Markdown syntax for images doesn’t allow you to specify the width and height of images. If you need to resize an image and your Markdown processor supports HTML, you can use the img HTML tag with the width and height attributes to set the dimensions of an image in pixels.
 
 ```HTML
@@ -873,7 +863,7 @@ The Markdown syntax for images doesn’t allow you to specify the width and heig
 
 The rendered output will contain the image resized to the dimensions you specified.
 
-# 32. ==Image Captions==
+# 32. Image Captions
 Markdown doesn’t natively support image captions, but there are two possible workarounds. If your Markdown application supports HTML, you can use the figure and figcaption HTML tags to add a caption for your image.
 
 ```HTML
@@ -893,7 +883,7 @@ If your Markdown application doesn’t support HTML, you could try placing the c
 *A single track trail outside of Albuquerque, New Mexico.*
 ```
 
-# 32. ==Link Targets==
+# 32. Link Targets
 Some people like creating links that open in new tabs or windows. The Markdown syntax for links doesn’t allow you to specify the target attribute, but if your Markdown processor supports HTML, you can use HTML to create these links.
 
 ```HTML
@@ -904,7 +894,7 @@ The rendered output looks like this:
 
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
 
-# 32. ==Symbols==
+# 32. Symbols
 Markdown doesn’t provide special syntax for symbols. However, in most cases, you can copy and paste whatever symbol you want to use into your Markdown document. For example, if you need to display Pi (π), just find the symbol on a webpage and copy and paste it into your document. The symbol should appear as expected in the rendered output.
 Alternatively, if your Markdown application supports HTML, you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright (&copy;) into your Markdown document
 
@@ -922,7 +912,7 @@ Here’s a partial list of HTML entities for symbols:
 
 For a complete list of available HTML entities, refer to Wikipedia’s page on HTML entities.
 
-# 33. ==Table of Contents==
+# 33. Table of Contents
 Some Markdown applications like Markdeep can automatically generate a table of contents (also referred to as a toc) from your headings, but this isn’t a feature provided by all Markdown applications. However, if your Markdown application supports heading IDs, you can create a table of contents for your Markdown file using a list and some links.
 
 ```
@@ -943,7 +933,7 @@ The rendered output looks like this:
 - [Center](#center)
 - [Color](#color)
 
-# 34. ==Videos==
+# 34. Videos
 If your Markdown application supports HTML, you should be able to embed a video in your Markdown file by copying and pasting the HTML code provided by a video website like YouTube or Vimeo. If your Markdown application doesn’t support HTML, you can’t embed a video, but you can come close by adding an image and a link to the video. You could do this with practically any video on any video service.
 
 Since YouTube makes this easy, we’ll use them as an example. Take this video, for instance: \https://www.youtube.com/watch?v=8q2IjQOzVpE. The last part of the URL (8q2IjQOzVpE) is the ID of the video. We can take that ID and put it in the following template:
